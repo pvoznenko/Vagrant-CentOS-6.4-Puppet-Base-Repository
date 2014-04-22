@@ -11,9 +11,11 @@ So use it only as example and on your own risk.
 ### Setup:
 
 Clone repository:
+
     $ git clone https://github.com/fosco-maestro/Vagrant-CentOS-6.4-Puppet-Base-Repository--php--nginx--xdebug--phpunit--redis--mysql-.git {dest folder}
 
 Go to {dest folder} and run `vagrant up` command:
+
     $ cd {dest folder}
     $ vagrant up
 
