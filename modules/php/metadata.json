@@ -1,0 +1,45 @@
+{
+  "name": "thias-php",
+  "version": "0.3.9",
+  "source": "git://github.com/thias/puppet-php",
+  "author": "Matthias Saou",
+  "license": "Apache 2.0",
+  "description": "Install and configure PHP for any of CLI, Apache httpd module and FastCGI.",
+  "project_page": "https://github.com/thias/puppet-php",
+  "dependencies": [
+
+  ],
+  "checksums": {
+    "templates/httpd/php.conf.orig": "50015ff8bb23090aae4f8556987c5e40",
+    "tests/ini.pp": "6ccaff70f981929198f22e398beca6ff",
+    "tests/fpm/daemon.pp": "6804b102876223b40b3382668bf61434",
+    "ChangeLog": "1aac815f977fe0103b5b2172a713e421",
+    "manifests/common.pp": "0831427668d1e19fe3ad1261e877b25f",
+    "manifests/fpm/daemon.pp": "ccf7f7abce917b9f53f7adf71d69671d",
+    "templates/php.ini-el6.erb": "ee1273eab5da52e4188408cdc68c673d",
+    "manifests/module.pp": "d189a3c2c5059584d97941e02bbf04bb",
+    "manifests/params.pp": "d2354dfd6c624c2accaef32e01bfa6a9",
+    "tests/module.pp": "461e492ab58e9777a3b09e7da5e69c54",
+    "templates/httpd/php.conf.erb": "67cdc86b03fefa7cfb2631c5adc7e94f",
+    "templates/module.ini.erb": "f6f67a64c7e3fef16cf12b3d034feb66",
+    "templates/fpm/php-fpm.conf.erb": "b936e3b3b09686a8693fe741c4abe13b",
+    "manifests/module/ini.pp": "358624672a73014b56f82470c1c4855a",
+    "manifests/ini.pp": "debdbf1fe503148d56d777ca5b417e22",
+    "tests/cli.pp": "4acf74bcea023f76f2e9eb7acf38bbb3",
+    "README.md": "31f60faad4fc6b4916b86d598bf13e5f",
+    "LICENSE": "99219472697a01561e7630d63aaecdc1",
+    "manifests/fpm/conf.pp": "e07baf39738e160ef936eb6919e4e74b",
+    "tests/fpm/conf.pp": "8ab22d2e1e3821072e57c30734de70cd",
+    "templates/php.ini-el6.orig": "655c6c502c1367585d8a29935861cf7d",
+    "manifests/cli.pp": "0a91af750cae6d8b9ec31b718cb4fe81",
+    "Modulefile": "a5e403e5be8c94a1e0459b4b40376443",
+    "tests/module/ini.pp": "ba5ad8ccc8bf36c6a4f513c8498262d8",
+    "tests/mod_php5.pp": "ff071f8ba0eb1a2b90e71a6de246df30",
+    "templates/fpm/pool.conf.erb": "9d9667d27fd6502e47966bb3e74b84e3",
+    "manifests/mod_php5.pp": "ca72872e766622350ff594bc316fded5"
+  },
+  "types": [
+
+  ],
+  "summary": "PHP module"
+}
