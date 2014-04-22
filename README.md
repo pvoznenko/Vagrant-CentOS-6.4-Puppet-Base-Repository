@@ -17,7 +17,7 @@ Clone repository:
 
     $ git clone https://github.com/fosco-maestro/Vagrant-CentOS-6.4-Puppet-Base-Repository
 
-Go to {dest folder} and run `vagrant up` command:
+Go to `my_vagrant_folder` and run `vagrant up` command:
 
     $ cd my_vagrant_folder
     $ vagrant up
