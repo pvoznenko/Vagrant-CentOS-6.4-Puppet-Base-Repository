@@ -15,7 +15,7 @@ So use it only as example and on your own risk.
 
 Clone repository:
 
-    $ git clone https://github.com/fosco-maestro/Vagrant-CentOS-6.4-Puppet-Base-Repository--php--nginx--xdebug--phpunit--redis--mysql-.git my_vagrant_folder
+    $ git clone https://github.com/fosco-maestro/Vagrant-CentOS-6.4-Puppet-Base-Repository
 
 Go to {dest folder} and run `vagrant up` command:
 
