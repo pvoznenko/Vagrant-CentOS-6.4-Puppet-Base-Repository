@@ -32,7 +32,7 @@ You could access or VM nginx through private network ip `192.168.33.10` or throu
 
 ### Required:
 
-You need to have [Vagrant][1] (Vagrant require [VirtualBox][3]) and [Puppet][2] been installed.
+You need to install [Vagrant][1] (Vagrant require [VirtualBox][3]).
 
 [1]: http://www.vagrantup.com/
 [2]: http://docs.puppetlabs.com/guides/installation.html
