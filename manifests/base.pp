@@ -3,6 +3,7 @@ $db_name = 'test'
 $db_name_test = 'test_test'
 $db_user = 'test_user'
 $db_user_pass = 'test_user'
+$mysql_root_password = 'root'
 
 # Edit local /etc/hosts files to resolve some hostnames used on your application.
 host { 'localhost.localdomain':
@@ -42,7 +43,7 @@ class { 'imagemagick': }
 class { 'mysql::server':
     config_hash => {
         default_engine  => 'InnoDB',
-        root_password    => 'root',
+        root_password    => $mysql_root_password,
         bind_address => '0.0.0.0',
         sql_mode => ''
     },
